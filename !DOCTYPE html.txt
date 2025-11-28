@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simulación de Phishing</title>
+</head>
+<body style="font-family: Arial; background: #f2f2f2; padding: 40px;">
+    <h2>Página de inicio de sesión (Simulación educativa)</h2>
+    <p>Esta es una demostración para un trabajo escolar. No roba información real.</p>
+    
+    <form>
+        <label>Usuario:</label><br>
+        <input type="text" name="usuario"><br><br>
+        
+        <label>Contraseña:</label><br>
+        <input type="password" name="password"><br><br>
+        
+        <button type="button" onclick="alert('Simulación: los datos NO se envían a ningún servidor.')">
+            Iniciar sesión
+        </button>
+    </form>
+</body>
+</html>
